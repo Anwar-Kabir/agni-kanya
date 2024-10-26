@@ -13,9 +13,9 @@ class StateController extends GetxController {
   final zipController = TextEditingController();
 
 
-  final String stateApiUrl = 'https://test.shuvobhowmik.xyz/api/state';
-  final String cityApiUrl = 'https://test.shuvobhowmik.xyz/api/city/';
-  final String zipApiUrl = 'https://test.shuvobhowmik.xyz/api/zip/';
+  final String stateApiUrl = 'https://agnikanya.rudraganga.com/api/state';
+  final String cityApiUrl = 'https://agnikanya.rudraganga.com/api/city/';
+  final String zipApiUrl = 'https://agnikanya.rudraganga.com/api/zip/';
 
   @override
   void onInit() {

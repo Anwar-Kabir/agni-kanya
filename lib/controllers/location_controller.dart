@@ -129,7 +129,7 @@ void nofirend()async{
 
   Future<void> _sendLocationToApi() async {
     isLoading.value=true;
-    const apiUrl = 'https://test.shuvobhowmik.xyz/api/find-location';
+    const apiUrl = 'https://agnikanya.rudraganga.com/api/find-location';
 
     // Prepare the request body
     final body = json.encode({

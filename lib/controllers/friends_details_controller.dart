@@ -26,7 +26,7 @@ class FriendsDetailsController extends GetxController {
       }
 
       final url =
-          Uri.parse('https://test.shuvobhowmik.xyz/api/find-friend/$userId');
+          Uri.parse('https://agnikanya.rudraganga.com/api/find-friend/$userId');
       final response = await http.get(
         url,
         headers: {

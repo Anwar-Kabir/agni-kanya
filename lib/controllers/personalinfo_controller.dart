@@ -30,7 +30,7 @@ class PersonalinfoController extends GetxController {
 
   Future<void> submitPersonalInfo(String imagePath, {String? pageNmae}) async {
     isLoading.value = true; // Set loading to true when API call starts
-    final url = Uri.parse('https://test.shuvobhowmik.xyz/api/personal-info');
+    final url = Uri.parse('https://agnikanya.rudraganga.com/api/personal-info');
    //final url = Uri.parse('https://test.shuvobhowmik.xyz/api/personal-info');
 
 
@@ -138,7 +138,7 @@ class PersonalinfoController extends GetxController {
         return;
       }
 
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/personal-info');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/personal-info');
       final response = await http.get(
         url,
         headers: {

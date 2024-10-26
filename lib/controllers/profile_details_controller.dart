@@ -36,7 +36,7 @@ class ProfileDetailsController extends GetxController {
         return;
       }
 
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/personal-info');
+      final url = Uri.parse('hhttps://agnikanya.rudraganga.com/api/personal-info');
       final response = await http.get(
         url,
         headers: {

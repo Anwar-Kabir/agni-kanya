@@ -1,9 +1,9 @@
 
 
 class AppURL {
-  //static const String baseURL = "https://agnikanya.rudraganga.com/api/";
+  static const String baseURL = "https://agnikanya.rudraganga.com/api/";
 
-  static const String baseURL = "https://test.shuvobhowmik.xyz/api/";
+  
 
 
   

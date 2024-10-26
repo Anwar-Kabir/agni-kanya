@@ -28,7 +28,7 @@ class FamilyDetailsController extends GetxController {
       }
 
       final url =
-          Uri.parse('https://test.shuvobhowmik.xyz/api/find-family/$userId');
+          Uri.parse('https://agnikanya.rudraganga.com/api/find-family/$userId');
       final response = await http.get(
         url,
         headers: {

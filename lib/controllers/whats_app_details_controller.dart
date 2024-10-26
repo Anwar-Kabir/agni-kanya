@@ -27,7 +27,7 @@ class WhatsAppDetailsController extends GetxController {
         return;
       }
 
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/find-whatsapp');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/find-whatsapp');
       final response = await http.get(
         url,
         headers: {
@@ -72,7 +72,7 @@ class WhatsAppDetailsController extends GetxController {
     String groupLink = link;
 
     if (groupLink.isNotEmpty) {
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/whatsapp');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/whatsapp');
       final body = {'whatsapp_group_link': groupLink};
       log(jsonEncode(body));
       try {

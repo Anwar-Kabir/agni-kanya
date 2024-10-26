@@ -42,7 +42,7 @@ class FamilyController extends GetxController {
     String whatsapp = familyWhatsAppController.text;
 
     if (name.isNotEmpty && phone.isNotEmpty && whatsapp.isNotEmpty) {
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/create-family');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/create-family');
 
       //final url = Uri.parse('https://agnikanya.rudraganga.com/api/create-family');
 
@@ -107,7 +107,7 @@ class FamilyController extends GetxController {
     String whatsapp = friendWhatsAppController.text;
 
     if (name.isNotEmpty && phone.isNotEmpty) {
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/create-friend');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/create-friend');
       final userid = await _getUserId();
       final body = {
         'name': name,
@@ -166,7 +166,7 @@ class FamilyController extends GetxController {
     String groupLink = whatsAppGroupLink.text;
 
     if (groupLink.isNotEmpty) {
-      final url = Uri.parse('https://test.shuvobhowmik.xyz/api/whatsapp');
+      final url = Uri.parse('https://agnikanya.rudraganga.com/api/whatsapp');
       final userid = await _getUserId();
       final body = {'whatsapp_number': groupLink, 'user_id': userid};
 

@@ -16,7 +16,7 @@ class SosHistoryController extends GetxController{
   RxList<NearestPoliceStations> sos_history=<NearestPoliceStations>[].obs;
   getHitory()async{
     isLoading.value=true;
-    const apiUrl = 'https://test.shuvobhowmik.xyz/api/sos-history';
+    const apiUrl = 'https://agnikanya.rudraganga.com/api/sos-history';
 
 
     try {
